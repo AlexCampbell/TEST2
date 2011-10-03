@@ -1,35 +1,35 @@
+#include <iostream>
+#include <sstream>
+#include <string>
+using namespace std;
+
 struct NAterritories {
   int units;
-  string controledby ;
-} ;
-Alsaka, Alberta, Central America, Eastern United States, Greenland, Northwest Territory, Ontario, Qubec, Western United States;
+  string control;
+} Alsaka, Alberta, CAmerica, EUnitedStates, Greenland, NWT, Ontario, Qubec, WUnitedStates;
 
 struct SAterritories {
   int units;
-  string controledby ;
-} ;
-Argentina, Brazil, Peru, Venezuela;
+  string control ;
+} Argentina, Brazil, Peru, Venezuela;
 
 struct EUterritories {
   int units;
-  string controledby ;
-} ;
-United Kingdom, Iceland, Northern Europe, Scandinavia, Southern Europe, Ukraine, Western Europe;
+  string control ;
+} UK, Iceland, NE, Scandinavia, SEurope, Ukraine, WEurope;
 
 struct Asiaterritories {
   int units;
-  string controledby ;
-} ;
-Afganistan, China, India, Irkutsk, Japan, Kamchatka, Middle East, Mongolia, Siam, Siberia, Ural, Yakutsk;
+  string control ;
+} Afganistan, China, India, Irkutsk, Japan, Kamchatka, MiddleEast, Mongolia, Siam, Siberia, Ural, Yakutsk;
 
 struct Austerritories {
   int units;
-  string controledby ;
-} ;
-Eastern Austraila, Indonesia, New Guinea, Western Austraila;
+  string control ;
+} EAustraila, Indonesia, NGuinea, WAustraila;
 
 struct Afterritories {
   int units;
-  string controledby ;
-} ;
-Congo, East Africa, Egypt, Madagascar, North Africa, South Africa;
+  string control ;
+} Congo, EAfrica, Egypt, Madagascar, NAfrica, SAfrica;
+
