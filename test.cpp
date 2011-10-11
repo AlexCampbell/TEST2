@@ -1,9 +1,6 @@
-
 #include <set>
 #include <map>
 #include <iostream>
-
-typedef int ID;
 
 class Territory
  {
@@ -29,9 +26,9 @@ class Territory
    std::set<Territory *> adjacent;
  };
 
-std::map<ID, Territory> territory;
+std::map<int, Territory> territory;
 
-ID connections[][2] = {{0, 1},
+int connections[][2] = {{0, 1},
                        {1, 2},
                        {2, 0}}; // Three teritories connected in a triangle.
 
@@ -43,6 +40,6 @@ int main(int argc, char *argv[])
 
   // Show the connections.
 
-  for(std::map<ID, Territory>::const_iterator c = territory.begin(); c != territory.end(); ++c)
+  for(std::map<int, Territory>::const_iterator c = territory.begin(); c != territory.end(); ++c)
    c->second.printInfo();
  }
