@@ -14,13 +14,13 @@ public:
 
 
 class Sectors{
-public:
-    bool controled;
 protected:
+    bool controled;
+    std::set<Territory> countries;
+public:
     void control(void)
     void uncontrol(void)
     bool whetercontroled(void)
-std::set<Territory> countries;
 };
 
 void Territory::select(void)
