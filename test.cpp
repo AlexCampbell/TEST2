@@ -43,12 +43,12 @@ void Sectors::control(void)
     controled = 1;
 }
 
-void Territory::uncontrol(void)
+void Sectors::uncontrol(void)
 {
     controled = 0;
 }
 
-bool Territory::whethercontroled(void)
+bool Sectors::whethercontroled(void)
 {
     return(controled);
 }
